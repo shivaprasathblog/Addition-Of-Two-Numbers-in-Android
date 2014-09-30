@@ -37,10 +37,10 @@ public class MainActivity extends Activity
 			{
 				// TODO Auto-generated method stub
 			
-				 //	Get the values from Edittext et1 & et2 and store in value 1 & value2 add the two and store in value3
+				 //Get the values from Edittext et1 & et2 and store in value 1 & value2 add the two and store in value3
 				 //parseInt(String s): This returns an integer (decimal only).
 				 int value1=Integer.parseInt(et1.getText().toString());
-			     int value2=Integer.parseInt(et2.getText().toString());
+			         int value2=Integer.parseInt(et2.getText().toString());
 				 int value3=value1+value2;
 				 //Set the total in et3
 				 et3.setText("The total is : "+value3);
